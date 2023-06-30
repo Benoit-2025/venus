@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Chambre
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <h1 class="text-center">Bienvenue</h1>
+    
+    {% for chambre in chambres %}
+        <div class="my-5 p-4 border border-primary rounded">
+        <h2 class="text-center">{{ chambre.titre}}</h2>
+        <div class="text-center"><img src="{{ asset("uploads/images/" ~ chambre.photo)}} " alt="" class="img-fluid"</div>
+        
+        {{ chambre.descrition|raw}} </div>
+        <div class="text-center"> <a href="{{path('app_page',{id: chambre.id})}}" class="btn btn-primary my-4">Voir Detail</a></div>
+       
+        
+        </div>
+    {% endfor %}</div>
+{% endblock %}

@@ -1,0 +1,99 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AppController!
+{% endblock %}
+
+{% block body %}
+
+
+
+<div class="card text-bg-dark">
+  <img src="{{ asset('img/piscine2.jpg') }}" class="card-img" alt="..." href="">
+  <div class="text-center">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+	<a href="" class="btn btn-primary">je découvre</a>
+  </div>
+</div>
+
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-2 p-20">
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/chamvip.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">chambre</h5>
+        <p class="card-text">Hotels & Resorts s'impose comme l'enseigne la plus reconnue et le leader mondial du secteur, aussi élégant que progressiste. Fort de plus de 92 ans d'expérience, Hilton continue d'incarner l'hôtellerie grâce à son approche innovante des produits, services et installations. Nous facilitons les voyages grâce à des restaurants au concept innovant, un décor intelligent, un sens de l'hospitalité authentique et un engagement auprès de la communauté mondiale. Aujourd'hui, Hilton accueille des hôtes dans plus de pays que n'importe quelle autre enseigne hôtelière</p>
+		<a href="" class="btn btn-primary">Decouvrir nos Chambre</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/restauvip.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Restaurant</h5>
+        <p class="card-text">Hotels & Resorts s'impose comme l'enseigne la plus reconnue et le leader mondial du secteur, aussi élégant que progressiste. Fort de plus de 92 ans d'expérience, Hilton continue d'incarner l'hôtellerie grâce à son approche innovante des produits, services et installations. Nous facilitons les voyages grâce à des restaurants au concept innovant, un décor intelligent, un sens de l'hospitalité authentique et un engagement auprès de la communauté mondiale. Aujourd'hui, Hilton accueille des hôtes dans plus de pays que n'importe quelle autre enseigne hôtelière</p>
+		<a href="" class="btn btn-primary">Voir la Carte</a>
+	 </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/piscvip.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">SPA</h5>
+        <p class="card-text">Hotels & Resorts s'impose comme l'enseigne la plus reconnue et le leader mondial du secteur, aussi élégant que progressiste. Fort de plus de 92 ans d'expérience, Hilton continue d'incarner l'hôtellerie grâce à son approche innovante des produits, services et installations. Nous facilitons les voyages grâce à des restaurants au concept innovant, un décor intelligent, un sens de l'hospitalité authentique et un engagement auprès de la communauté mondiale. Aujourd'hui, Hilton accueille des hôtes dans plus de pays que n'importe quelle autre enseigne hôtelière</p>
+		<a href="" class="btn btn-primary">Les soins</a>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-us">
+	<h2>qui sommes-nous ?</h2>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum laborum quod nihil! Commodi, a vel sed est cumque blanditiis ipsa impedit beatae veritatis ut praesentium iste placeat quam animi!Lorem
+							                t
+		<strong>Vincent</strong>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus animi explicabo reiciendis eius sed quam repellendus, nemo neque itaque nobis quo, quos odit alias quia voluptas quidem sit rem!
+		<strong>Wassim</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati tenetur eligendi ratione dignissimos ab ut temporibus illum accusamus modi, nobis eum officia corrupti aliquid quaerat, ad fuga a qui.
+	</p>
+
+
+	<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>À propos de nous</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur malesuada tellus in consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Chambres</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Réservations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Contactez-nous</h3>
+                <p>Adresse: 123 Rue du Commerce, Ville, Pays</p>
+                <p>Téléphone: +1 234 5678</p>
+                <p>Email: info@example.com</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2023 Nom de l'Hôtel. Tous droits réservés.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</script><script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLÉ_API&callback=initMap" async defer></script>{% endblock %}

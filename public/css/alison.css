@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+.logo{
+    font-family: 'Bacasime Antique', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* COMPONENTS */
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(166, 11, 11);
+}
+
+.btn:hover {
+    color: #333;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+/* HERO */
+.hero {
+    background-color: pink;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/business-1920x1280.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+
+/* ABOUT-US */
+.about-us {
+    width: 90%;
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+.about-us a {
+    color: red;
+}
+
+.about-us a:hover {
+    color: pink;
+}
+
+.h{
+    background-position: center;
+}
+
+.map-container {
+    height: 400px;
+    width: 100%;
+  }
+

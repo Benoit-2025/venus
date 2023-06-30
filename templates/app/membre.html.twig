@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Membre
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <h1 class="text-center">Bienvenue</h1>
+    </di>
+    {% for membre in membres %}
+
+        {{ chambre.id|raw}} <br>
+        {{ chambre.titre|raw}} <br>
+        {{ chambre.photo|raw}} <br>
+        {{ chambre.descrition|raw}} 
+    {% endfor %}
+{% endblock %}
+
+

@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+
+{% block title %}Commande{% endblock %}
+
+{% block body %}
+
+<h1 class="text-center">Commande
+
+ {% for commande in commandes %}
+
+        {{ commande.id}} 
+        {{ commande.prenom}} 
+      
+    {% endfor %}
+
+</h1>{% endblock %}
+
+
+
+
